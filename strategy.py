@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-import ta
+import talib as ta
 import joblib
 
 # Load static model
