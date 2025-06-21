@@ -4,7 +4,7 @@ import ta
 import joblib
 
 # Load static model
-model = joblib.load("models/xgb_model.pkl")
+model = joblib.load("xgb_model.pkl")
 
 def fetch_data(ticker="AAPL"):
     df = yf.download(ticker, interval="5m", start="2025-05-20", end="2025-06-20")
